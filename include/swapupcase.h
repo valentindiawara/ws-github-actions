@@ -5,14 +5,15 @@
 ** swapupcase.h
 */
 
-#pragma once
+#ifndef SWAPUPCASE_H_
+    #define SWAPUPCASE_H_
 
-#include <stdbool.h>
+    #include <stdbool.h>
 
-#define EPITECH_OK 0
-#define EPITECH_KO 84
+    #define EPITECH_OK 0
+    #define EPITECH_KO 84
 
-#define ERROR -1
+    #define ERROR -1
 
 int swapupcase(char *str);
 
@@ -23,3 +24,5 @@ int my_strlen(char *str);
 int swap_string(char *str, bool is_string_odd);
 
 int case_string(char *str, bool is_string_odd);
+
+#endif //SWAPUPCASE_H_
